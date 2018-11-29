@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/timaoid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/corinthians"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/palmeirasid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/palmeiras"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/gremioid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gremio"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/interid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/inter"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/saopauloid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/atleticoid"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/mg"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
